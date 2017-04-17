@@ -2,7 +2,7 @@ var axios = require('axios');
 var http = require('http')
 
 let   httpsProxyAgent = require('https-proxy-agent');
-// var agent = new httpsProxyAgent(process.env.https_proxy);
+var agent = new httpsProxyAgent(process.env.https_proxy);
 var testApi = 'https://localhost:9000';
 var token = 'token'
 // console.log(agent)
