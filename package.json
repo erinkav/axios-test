@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.1",
+    "axios": "git+https://github.com/mzabriskie/axios.git#feature/pass-agents-to-follow-redirects",
     "http": "0.0.0",
     "https-proxy-agent": "^1.0.0"
   }
